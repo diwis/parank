@@ -30,7 +30,7 @@ To do this, run calculate_weights.py as follows:
 In the above command: 
 
 - <input_file>: is the input file described above
-- <exponent>: is the value of the exponential constant described in our method 
+- <exponent>: is the value of the exponential constant described in our method. **Important**: include the minus sign for a negative exponent.
 - <current_year>: is the latest year that papers in <input_file> were published
 - <start_year>: is the year from which onward we use references to calculate preferential attachment
 - <new_input_file>: is the name of the original input file, which additionally contains, per paper, an exponential weight and - a preferential attachment probability.
