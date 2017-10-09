@@ -53,6 +53,6 @@ Run our method as follows:
 where:
 
 - <weight_pa_file>: is the input file created in 2.
-- <alpha>\/<beta>\/<gamma>: are the probabilities defined by our method
+- \<alpha\>/\<beta\>/\<gamma\>: are the probabilities defined by our method
 - <convergence_error>: is the value of the least maximum error between scores in consecutive iterations, per paper, which when achieved the method finishes.
   
